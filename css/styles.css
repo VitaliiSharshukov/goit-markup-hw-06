@@ -1,570 +1,1092 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio solutions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header class="page-header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="header-logo logo" href="./index.html"
-            ><span class="header-part-logo">Web</span>Studio
-          </a>
-          <button class="header-button" type="button">
-            <svg class="header-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-burger"></use>   
-            </svg>         
-          </button>
-          <ul class="nav-list">
-            <li><a class="nav-title current" href="">Studio</a></li>
-            <li><a class="nav-title" href="">Portfolio</a></li>
-            <li><a class="nav-title" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="contacts nav-list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="address-link"
-                >info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="address-link"
-                >+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <main>
-      <section class="section-solution">
-        <div class="solution container">
-          <h1 class="section-solution-title">
-            Effective Solutions for Your Business
-          </h1>
-          <button type="button" class="btn-service">Order Service</button>
-        </div>
-      </section>
-      <section class="features">
-        <div class="container">
-          <h2 class="visually-hidden">Our Features</h2>
-          <ul class="features-section">
-            <li class="features-list">
-              <div class="features-icon">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-              </div>
-              <h3 class="features-title">Strategy</h3>
-              <p class="features-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="features-list">
-              <div class="features-icon">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
-              <h3 class="features-title">Punctuality</h3>
-              <p class="features-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="features-list">
-              <div class="features-icon">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
-              <h3 class="features-title">Diligence</h3>
-              <p class="features-text">
-                Research and confirm brands with the strongest digital growth
-                opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="features-list">
-              <div class="features-icon">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
-              <h3 class="features-title">Technologies</h3>
-              <p class="features-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="team">
-        <div class="container">
-          <h2 class="team-title">Our Team</h2>
-          <ul class="team-section">
-            <li class="team-card">
-              <img
-                class="img-team"
-                src="./images/mark.jpg"
-                alt="Man with laptop presenting somethings"
-                width="264"
-              />
-              <div class="card-subtitle">
-                <h3 class="team-card-subtitles">Mark Guerrero</h3>
-                <p class="team-card-text">Product Designer</p>
-                <ul class="social-list">
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="img-team"
-                src="./images/tom.jpg"
-                alt="Yong man is smiling looking to the left"
-                width="264"
-              />
-              <div class="card-subtitle">
-                <h3 class="team-card-subtitles">Tom Ford</h3>
-                <p class="team-card-text">Frontend Developer</p>
-                <ul class="social-list">
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="img-team"
-                src="./images/camila.jpg"
-                alt="Yong woman in a pink sweater is smiling"
-                width="264"
-              />
-              <div class="card-subtitle">
-                <h3 class="team-card-subtitles">Camila Garcia</h3>
-                <p class="team-card-text">Marketing</p>
-                <ul class="social-list">
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#"
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-card">
-              <img
-                class="img-team"
-                src="./images/daniel.jpg"
-                alt="Man in a gray t-shirt is smiling looking straight into the camera"
-                width="264"
-              />
-              <div class="card-subtitle">
-                <h3 class="team-card-subtitles">Daniel Wilson</h3>
-                <p class="team-card-text">UI Designer</p>
-                <ul class="social-list">
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="portfolio">
-        <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul class="portfolio-section">
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/bankapp.jpg"
-                  alt="screen banking solutions"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Banking App</h3>
-                <p class="portfolio-text">App</p>
-              </div>
-            </li>
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/cashlsspay.jpg"
-                  alt="someone pays with smartphone"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Cashless Payment</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/meditait.jpg"
-                  alt="notebook with smartphone"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Meditation App</h3>
-                <p class="portfolio-text">App</p>
-              </div>
-            </li>
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/taxisrvc.jpg"
-                  alt="taxi driver paying attention road"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Taxi Service</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/scrillustr.jpg"
-                  alt="smartphone and few screens of soulution"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-                <p class="portfolio-text">Design</p>
-              </div>
-            </li>
-            <li class="project-card">
-              <div class="thumb">
-                <img
-                  class="img-portfolio"
-                  src="./images/onlinecrs.jpg"
-                  alt="ladi in gray hat standig beside wall with smartphone in her hand"
-                  width="360"
-                />
-                <p class="image-portfolio-text">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="portfolio-subject">
-                <h3 class="portfolio-subtitle">Online Courses</h3>
-                <p class="portfolio-text">Marketing</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer-container container">
-        <div class="footer-info">
-          <div class="footer-logo-wrap">
-          <a href="./index.html" class="logo-footer"
-            ><span class="logo-footer-web">Web</span>Studio
-          </a>
-          </div>
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-bottom">
-          <p class="footer-bottom-title">Social media</p>
-          <ul class="footer-social-list">
-            <li>
-              <a class="social-link-footer" href=""
-                ><svg class="social-icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="social-link-footer" href=""
-                ><svg class="social-icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="social-link-footer" href=""
-                ><svg class="social-icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="social-link-footer" href=""
-                ><svg class="social-icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-subscribe">
-          <p class="footer-subscribe-title">Subscribe</p>
-          <form class="subscribe">
-            <label class="subscribe-label" for="email">
-              <input
-                class="subscribe-input"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="subscribe-button" type="submit">
-              Subscribe
-              <svg class="subscribe-icon" width="24" height="24" fill="none">
-                <use href="./images/icons.svg#icon-subscribe"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-    </footer>
-    <div class="overlay">
-      <div class="modal">
-        <button type="button" 
-         class="btn-close-modal">
-          <svg class="close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form">
-          <div class="modal-form-wrap">
-            <label class="input-label" for="user-name">Name</label>
-            <div class="input-wrap">
-              <input
-                type="text"
-                class="modal-input"
-                name="user-name"
-                required
-                id="user-name"
-              />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-wrap">
-            <label class="input-label" for="user-phone">Phone</label>
-            <div class="input-wrap">
-              <input
-                type="tel"
-                class="modal-input"
-                name="user-phone"
-                required
-                id="user-phone"
-              />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-wrap">
-            <label class="input-label" for="user-email">Email</label>
-            <div class="input-wrap">
-              <input
-                type="email"
-                class="modal-input"
-                name="user-email"
-                required
-                id="user-email"
-              />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-wrap bottom">
-            <label class="input-label" for="user-comment">Comment</label>
-              <textarea
-                class="modal-textarea"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                ></textarea>
-          </div>
-          <div class="checkbox-wrap">            
-            <input type="checkbox" 
-              class="modal-checkbox visually-hidden" 
-              id="policy" 
-              name="policy"
-              required
-              value="accepted" 
-            />                         
-            <label class="checkbox-label" for="policy">
-              <span class="checkbox-label-in">
-               <svg class="checkbox-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-accept"></use>
-               </svg>
-              </span>
-               I accept the terms and conditions of the 
-             <a href="#" class="checkbox-link">Privacy Policy</a>
-            </label> 
-          </div>          
-          <button type="submit" class="btn-submit-modal">Send</button>
-        </form>
-      </div>
-    </div>
-  </body>
-</html>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding: 0;
+  height: auto;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;  
+  padding: 16px auto;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;  
+  flex: 1;
+
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.header-part-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0;
+}
+
+.header-icon {
+  fill: #2e2f42;
+}
+
+.nav-list {
+  display: none;
+}
+
+/* ------main------ */
+
+.section-solution {
+  background: #2e2f42;
+  padding: 188px 0;
+  background-image:
+    linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-solution-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.btn-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-service:hover,
+.btn-service:focus {
+  background: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.features {
+  padding: 96px 0;
+}
+
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+  padding: 0;
+}
+
+.features-list {
+width: 100%;
+}
+
+.features-icon {
+  display: none;
+}
+
+.features-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-text {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.team {
+  background: #f4f4fd;
+  padding: 96px 0;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-subtitle {
+  max-width: 232px;
+  padding: 32px 16px;
+  display: block;
+  text-align: center;
+}
+
+.team-card-subtitles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.team-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  fill: #f4f4fd;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.portfolio {
+  padding: 96px 0;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.project-card {
+  background: #fff;
+  max-width: 100%;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+.project-card:hover {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.project-card:hover .image-portfolio-text {
+  transform: translateY(0);
+}
+
+.thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-portfolio-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-subject {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ------Footer------ */
+
+.footer {
+  background: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: center;
+  gap: 72px;
+}
+
+.footer-logo-wrap {
+  text-align: center;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.logo-footer-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 16px;
+}
+
+.footer-bottom {
+  display: block;
+  text-align: center;
+}
+
+.footer-bottom-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-footer {
+  fill: #f4f4fd;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-subscribe-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.subscribe-input {
+  color: #fff;
+  background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-input::placeholder {
+  color: #fff;
+}
+
+.subscribe-input:focus {
+  border-color: #31d0aa;
+}
+
+.subscribe-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #31d0aa;
+}
+
+.subscribe-icon {
+  fill: #fff;
+}
+
+
+.overlay {
+  display: flex;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
+}
+
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.overlay:not(.is-open) .modal {
+  transform: translate(-50%, -100%) scale(0.5);
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  width: 408px;
+  min-height: 584px;
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  padding: 72px 24px 24px 24px;  
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close-modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-close-modal:hover,
+.btn-close-modal:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.btn-close-modal:hover .close-icon,
+.btn-close-modal:focus .close-icon {
+  fill: #fff;
+}
+
+.close-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  max-width: 360px;
+  margin-bottom: 16px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.input-label {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.modal-input {
+  position: static;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 38px;
+  padding-right: 16px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input::placeholder,
+.input-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+
+.modal-input:focus,
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+
+.modal-icon {
+  position: absolute;
+  fill: #2e2f42;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.modal-form-wrap.bottom {
+  margin-bottom: 16px;
+}
+
+.modal-textarea {
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 100%;
+height: 120px;
+background-color: transparent;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+outline: transparent;
+resize: none;
+padding: 8px 16px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+}
+
+.checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modal-checkbox:checked + .checkbox-label .checkbox-label-in {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;   
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-label-in {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.checkbox-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-link:hover,
+.checkbox-link:focus {
+  color: #404bbf;
+}
+
+.btn-submit-modal {
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.btn-submit-modal:hover,
+.btn-submit-modal:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }  
+
+  .header-nav {
+    flex: none;
+  }
+  
+  .header-button {
+  display: none;
+  }
+
+  .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  }
+
+  .nav-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-title:focus,
+  .nav-title:hover {
+  color: #404bbf;
+  }
+  .nav-title.current {
+  position: relative;
+  color: #404bbf;
+  }
+  .nav-title.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  }
+
+  .address {
+    font-style: normal;
+    margin-left: auto;
+  }
+
+  .contacts.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .address-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #434455;
+  padding: 0;
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .address-link:hover,
+  .address-link:focus {
+  color: #404bbf;
+  }
+
+
+  .section-solution {
+    max-width: 768px;
+  }
+
+  .features-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+  padding: 0;
+  }
+
+  .features-list {
+  flex-basis: calc((100% - 24px ) / 2);
+  }
+
+  .features-title {
+  text-align: left;
+  }
+
+  .team > .container {
+    padding: 0 108px;
+  }
+
+  .team-section {
+  gap: 64px 24px;
+  }
+
+  .team-card {
+  flex-basis: calc((100% - 24px ) / 2);
+  }
+
+  .portfolio {
+  padding: 96px 0;
+  }
+
+  .portfolio-section {
+  gap: 72px 24px;
+  }
+
+  .project-card {
+  max-width: calc((100% - 24px) / 2);
+  }
+
+ .footer-container {
+   justify-content: flex-start;
+  /* gap: 120px; */
+  gap: 72px 24px;
+  padding: 0 108px;
+  }
+
+  .footer-logo-wrap {
+  text-align: left;
+  }
+
+  .footer-bottom {
+  text-align: left;
+  }
+
+  .footer-subscribe {
+  display: block;
+  margin-left: 0;
+  }
+
+  .subscribe {
+  justify-content: flex-start;
+  gap: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .contacts.nav-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+  }
+  
+.section-solution {
+  max-width: 1440px;
+}
+
+  .features {
+  padding: 120px 0;
+}
+
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.features-list {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.features-icon {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team > .container {
+    max-width: 1158px;
+    padding: 0 15px;
+}
+
+.team-section {
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+
+.team-card {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-section {
+  gap: 48px 24px;
+}
+
+.project-card {
+  max-width: calc((100% - 24px * 2) / 3);
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  flex-wrap: nowrap;
+  align-items: baseline;
+  padding: 0;
+}
+
+.footer-logo-wrap {
+  text-align: left;
+}
+
+.footer-text {
+   margin-right: 120px;
+}
+
+.footer-bottom { 
+  text-align: left;
+}
+
+.footer-bottom-title {
+  text-align: left;
+}
+
+.footer-subscribe {
+  display: block;
+  margin-left: auto;
+}
+
+.subscribe {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 24px;
+}
+
+}
