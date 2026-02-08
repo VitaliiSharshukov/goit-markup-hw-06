@@ -61,7 +61,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;  
-  padding: 16px;
+  margin: 0 auto;
   justify-content: space-between;
 }
 
