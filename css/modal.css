@@ -283,3 +283,11 @@ color: rgba(46, 47, 66, 0.4);
 .btn-submit-modal:focus {
   background-color: #404bbf;
 }
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1158px) {
+
+}
