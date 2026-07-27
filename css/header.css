@@ -61,6 +61,7 @@
   }
 
   .header-logo {
+    margin-right: 120px;
     padding: 24px 0;
   }
 
@@ -146,6 +147,9 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .header-logo {
+    margin-right: 76px;
+  }
 
   .address-list {
    display: flex;   

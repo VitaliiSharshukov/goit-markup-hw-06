@@ -94,7 +94,6 @@ fill: #f4f4fd;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-left: auto; */
 }
 
 .footer-subscribe-title {
@@ -111,7 +110,7 @@ fill: #f4f4fd;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .subscribe-input {
@@ -215,6 +214,7 @@ fill: #f4f4fd;
     flex-wrap: nowrap;
     align-items: baseline;
     padding: 0 15px;
+    gap: 0;
   }
 
   .footer-text {
