@@ -394,7 +394,7 @@
             <img
               src="./images/portfolio-1-mob.jpg"
               alt="screen banking solutions"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -418,11 +418,11 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="./images/portfolio-2.jpg 1x, ./images/portfolio-2@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(min-width: 768px)"
                     srcset="./images/portfolio-2-tab.jpg 1x, ./images/portfolio-2-tab@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(max-width: 767px)"
                     srcset="./images/portfolio-2-mob.jpg 1x, ./images/portfolio-2-mob@2x.jpg 2x"
@@ -430,7 +430,7 @@
             <img
               src="./images/portfolio-2-mob.jpg"
               alt="someone pays with smartphone"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -455,11 +455,11 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="./images/portfolio-3.jpg 1x, ./images/portfolio-3@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(min-width: 768px)"
                     srcset="./images/portfolio-3-tab.jpg 1x, ./images/portfolio-3-tab@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(max-width: 767px)"
                     srcset="./images/portfolio-3-mob.jpg 1x, ./images/portfolio-3-mob@2x.jpg 2x"
@@ -467,7 +467,7 @@
             <img
               src="./images/portfolio-3-mob.jpg"
               alt="notebook with smartphone"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -491,11 +491,11 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="./images/portfolio-4.jpg 1x, ./images/portfolio-4@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(min-width: 768px)"
                     srcset="./images/portfolio-4-tab.jpg 1x, ./images/portfolio-4-tab@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(max-width: 767px)"
                     srcset="./images/portfolio-4-mob.jpg 1x, ./images/portfolio-4-mob@2x.jpg 2x"
@@ -503,7 +503,7 @@
             <img
               src="./images/portfolio-4-mob.jpg"
               alt="taxi driver paying attention road"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -527,11 +527,11 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="./images/portfolio-5.jpg 1x, ./images/portfolio-5@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(min-width: 768px)"
                     srcset="./images/portfolio-5-tab.jpg 1x, ./images/portfolio-5-tab@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(max-width: 767px)"
                     srcset="./images/portfolio-5-mob.jpg 1x, ./images/portfolio-5-mob@2x.jpg 2x"
@@ -539,7 +539,7 @@
             <img              
               src="./images/portfolio-5-mob.jpg"
               alt="smartphone and few screens of soulution"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -563,11 +563,11 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="./images/portfolio-6.jpg 1x, ./images/portfolio-6@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(min-width: 768px)"
                     srcset="./images/portfolio-6-tab.jpg 1x, ./images/portfolio-6-tab@2x.jpg 2x"
-                >
+                  >
                   <source
                     media="(max-width: 767px)"
                     srcset="./images/portfolio-6-mob.jpg 1x, ./images/portfolio-6-mob@2x.jpg 2x"
@@ -575,7 +575,7 @@
             <img
               src="./images/portfolio-6-mob.jpg"
               alt="ladi in gray hat standig beside wall with smartphone in her hand"
-              width="100%"
+              width="360"
             />
             </picture>
             <p class="image-portfolio-text">
@@ -766,15 +766,16 @@
 
     <!-- ------MOBILE MENU------ -->
 
-    <div class="mobile-menu" id="mobile-menu">        
+    <div class="mobile-menu is-open" id="mobile-menu">  
+      <div class="mobile-menu-wrap">      
           <button class="header-button-close" type="button">
-            <svg class="header-icon-mob" width="24" height="24">
+            <svg class="header-icon-mob" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button> 
         <nav class="header-nav-mob">                  
           <ul class="mob-nav-list">
-            <li><a class="mob-nav-title current" href="">Studio</a></li>
+            <li><a class="mob-nav-title" href="">Studio</a></li>
             <li><a class="mob-nav-title" href="">Portfolio</a></li>
             <li><a class="mob-nav-title" href="">Contacts</a></li>
           </ul>
@@ -783,7 +784,7 @@
           <address class="mob-address">
             <ul class="mob-contacts">
               <li>
-               <a href="tel:+110001111111" class="mob-address-link"
+               <a href="tel:+110001111111" class="mob-address-link mob-address-tel"
                   >+11 (000) 111-11-11</a>
               </li>
               <li>
@@ -792,8 +793,8 @@
              </li>
             </ul>
           </address>
-        </div>
-        <ul class="mob-social-list">
+        
+          <ul class="mob-social-list">
                   <li>
                     <a class="social-link" href=""
                       ><svg class="social-icon" width="24" height="24">
@@ -817,13 +818,14 @@
                   </li>
                   <li>
                     <a class="social-link" href=""
-                      ><svg class="social-icon" width="16" height="16">
+                      ><svg class="social-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
-                </ul>
+          </ul>
         </div>
+      </div>
     </div>
   </body>
 </html>
