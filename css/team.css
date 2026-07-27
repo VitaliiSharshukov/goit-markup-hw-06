@@ -92,7 +92,7 @@
   }
 
   .team-cards {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
