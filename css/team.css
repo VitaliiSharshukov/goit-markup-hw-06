@@ -85,16 +85,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .team > .container {
-    padding: 0 108px;
-  }
-
   .team-section {
+    max-width: 552px;
+    margin: 0 auto;
     gap: 64px 24px;
   }
 
   .team-cards {
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
