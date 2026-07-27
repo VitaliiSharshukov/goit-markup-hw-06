@@ -28,7 +28,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* flex-basis: calc((100% - 24px * 3) / 4); */
 }
 
 .card-subtitle {
